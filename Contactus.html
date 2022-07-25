@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Obejtos que van en el cabezal-->
+    <meta charset="UTF-8"><!--Usamos la codificación Utf-8 osea el lenguaje-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title><!--Titulo de la pestaña de la ventana-->
+    <link href="./Styles.css" rel="stylesheet">
+</head>
+
+    <body background="fondo2.jpg" bgcolor="FFCECB">
+    <div id="header">
+        <h1>Bienvenidos a mi pagina</h1>
+        <ul>
+            <li><a href="index.html">Menu principal</a></li>
+            <li><a href="Aboutus.html">Acerca de nosostros</a></li>
+            <li><a href="Contactus.html">Contactanos</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <p style="color:white";>
+            Si tiene alguna duda contactenos
+        </p>
+        <form style="color:white";>
+            <label  for="nombre-contacto">Nombre</label>
+            <input type="text" placeholder="Name" name="nombre" id="nombre-contacto">
+            <label for="email-contacto">Correo electronico</label>
+            <input type="email" placeholder="Email" id="email-contacto" name="email">
+            <label for="consulta-contacto">¿Cula es su pregunta?</label>
+            <textarea id="consulta-contacto"></textarea>
+            <input type="submit" value="Enviar" class="button">
+        </form>
+    </div>
+</body>
+</html>

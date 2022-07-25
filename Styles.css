@@ -1,0 +1,64 @@
+#header{
+    background: #000;
+    color: red;
+    padding: 10px 20px;
+}
+
+#header h1{
+    margin: 0;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header li{
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#content{
+    padding: 20px;
+}
+
+#header ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#header ul a:hover{
+    color: #ff9999;
+}
+
+.two-columns img, .two-columns p{
+    float: left;
+    width: 40%;
+}
+
+.two-columns p{
+    margin: 0 20px;
+}
+#content form{
+    clear: both;
+}
+
+#content form [type=text], #content form [type=email], textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 35%;
+    padding: 10px;
+    border: 0;
+    background-color: #FFD6D6;
+    color: #666;
+}
+table{
+    border: 3px #ccc solid;
+    border-radius: 2px;
+}
